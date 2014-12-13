@@ -1,0 +1,19 @@
+{
+    "name": "Example Process",
+    "initializer": {
+        "type": "FileReader",
+        "minWorkers": "5",
+        "maxWorkers": "5"
+    },
+    "process": {
+        "minWorkers": "1",
+        "steps": [
+            {
+                "type": "transform"
+            },
+            {
+                "type": "elasticsearch_bulk"
+            }
+        ]
+    }
+}

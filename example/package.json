@@ -1,0 +1,13 @@
+{
+  "name": "bruckner example",
+  "version": "0.0.1",
+  "description": "Example processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Kimbro Staken",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

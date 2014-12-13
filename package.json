@@ -1,0 +1,15 @@
+{
+  "name": "bruckner",
+  "version": "0.0.1",
+  "description": "Stream processor written in node.js",
+  "main": "service.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Kimbro Staken",
+  "license": "MIT",
+  "dependencies": {
+    "bucker": "^1.0.11",
+    "lodash": "^2.4.1"
+  }
+}
